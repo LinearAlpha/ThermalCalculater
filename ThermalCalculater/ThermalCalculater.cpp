@@ -1,7 +1,7 @@
 ﻿// ThermalCalculater.cpp : Defines the entry point for the application.
 //
 
-#include "ThermalCalculater.h"
+#include "../src/stdafx.h"
 
 using namespace std;
 

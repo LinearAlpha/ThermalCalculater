@@ -1,25 +1,23 @@
-﻿cmake_minimum_required (VERSION 3.8)
-
-# incloud dir
+﻿# incloud dir
 INCLUDE_DIRECTORIES(
     ${BULLET_PHYSICS_SOURCE_DIR}/src
 )
 
-# Linking with incloude files
-LINK_LIBRARIES(
-    BulletProof
-    DateTime
-    MultyOSCom
-
+set(OUTPUT_FL
+    "${CMAKE_PROJECT_NAME}.out"
 )
 
 # lsit of source code
-SET(SCR
+SET(SRC_LIST
     ThermalCalculater.cpp
 )
 
 # Add source to this project's executable.
-add_executable (ThermalCalculater
-    ${SCR}
+add_executable (${OUTPUT_FL}
+    ${SRC_LIST}
 )
-
+target_link_libraries(${OUTPUT_FL}
+    BulletProof
+    DateTime
+    MultyOSCom
+)
