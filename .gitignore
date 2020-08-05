@@ -1,0 +1,8 @@
+# python exculdable
+__pycache__
+dist
+.exe.spec
+
+# vs
+.vs
+out
