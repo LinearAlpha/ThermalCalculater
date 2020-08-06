@@ -1,8 +1,5 @@
-# python exculdable
-__pycache__
-dist
-.exe.spec
-
 # vs
 .vs
+.vscode
 out
+CMakeSettings.json
