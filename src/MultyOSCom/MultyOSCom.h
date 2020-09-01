@@ -3,6 +3,7 @@
 
 #include "../stdafx.h"
 
+// sending clean commend to terminal; lin-clear; win-cls
 void clearScreen();
 void pauseTerminal();
 

@@ -5,4 +5,5 @@ include_directories(
 
 add_library(BulletProof STATIC
     BulletProof.cpp
+    BulletProof.h
 )

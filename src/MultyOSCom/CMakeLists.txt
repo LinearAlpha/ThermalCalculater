@@ -5,4 +5,5 @@ include_directories(
 
 add_library(MultyOSCom STATIC
     MultyOSCom.cpp
+    MultyOSCom.h
 )
